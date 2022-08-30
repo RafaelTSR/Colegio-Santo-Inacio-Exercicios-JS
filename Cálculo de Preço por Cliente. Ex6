@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <script>
+       		
+            //Entrada de dados
+        	var valorConta = Number(prompt("Valor total da conta:"));
+        	var nClientes = Number(prompt("Número de clientes que pagarão a conta"));
+            
+            //Cálculo
+        	var valorCliente = valorConta/nClientes
+            
+            //Saída de dados
+        	alert("O valor para cada responsavel pela conta é: R$" + valorCliente.toFixed(2));
+        
+        
+        
+        </script>
+	</head>
+	<body>
+
+		<h1>Exercício 6</h1>
+		<p>Elaborar um programa para uma pizzaria, o qual leia o valor total de uma conta e quantos clientes vão 		pagá-la. Calcule e informe o valor a se pago por cleinte.</p>
+
+	</body>
+</html>
