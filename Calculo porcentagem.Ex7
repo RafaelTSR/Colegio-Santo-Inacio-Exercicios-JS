@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<h1>Exercicio 7</h1>
+	<p>Elaborar um programa que leia o valor de um jantar. Calcule e informe o valor da taxa do garçom (10%) e o valor a se pago.		</p>
+
+<h2>Resolução:</h2>
+<script>
+
+  	//Entrada de Dados
+	  var valorJantar = Number(prompt("Digite o valor total do jantar:"));
+    
+    //Cálculo
+    var jantar10 = valorJantar*1.10
+    var garcom10 = jantar10-valorJantar
+    
+    //Saída de dados
+    document.write("<strong>Valor total do jantar:</strong> R$" + valorJantar.toFixed(2) + "<br>");
+    document.write("<strong>Valor dos 10% do garçom:</strong> R$" + garcom10.toFixed(2) + "<br>");
+    document.write("<strong>Valor total do jantar com 10% incluso:</strong> R$" + jantar10.toFixed(2) + "<br>");
+    
+</script>
+
+</body>
+</html>
