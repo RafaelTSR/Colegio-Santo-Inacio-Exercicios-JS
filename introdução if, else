@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+ <script>
+ var salario = 1500
+ var valorCapa = 30
+ var quantVenda = Number(prompt("Quantidade de capas vendidas: "));
+ var caixa = valorCapa*quantVenda
+ 
+ alert("Dinheiro total obtido pela venda das Capas de celular: R$"+ caixa);
+ 
+ if(caixa>5000) {
+ 	var comissao = 0.10*caixa
+    var finalSalario = comissao+salario
+    alert("Valor da comissão de 10% da venda das capinhas: R$"+ comissao.toFixed(2));
+    alert("Valor final do salario incluindo comissão: R$"+ finalSalario.toFixed(2));
+ }
+ 
+ if(caixa<5000) {
+ 	var comissao = 0.07*caixa
+    var finalSalario = comissao+salario
+    alert("Valor da comissão de 7% da venda das capinhas: R$"+ comissao.toFixed(2));
+    alert("Valor final do salario incluindo comissão: R$"+ finalSalario.toFixed(2));
+ }
+ 
+ </script>
+</html>
